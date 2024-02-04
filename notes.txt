@@ -1,0 +1,19 @@
+Creating the gear icon
+
+This is the code:
+ <div class="btn-group">
+        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="true"><i class="fa-solid fa-gear"></i>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end">
+          <li><button class="dropdown-item" type="button">Profile</button></li>
+          <li><button class="dropdown-item" type="button">Accessibility</button></li>
+          <li><button class="dropdown-item" type="button">Profile and data</button></li>
+          <li><button class="dropdown-item" type="button">logout</button></li>
+        </ul>
+
+
+I was trying to insert the gear icon into the button.  This was correct, the gear code had to be wrapped in the button.
+Where I struggled was viewing the button.  I turned out the aria-expanded=false was interferring.  False meant it cannot expand.
+but true means that it can, and therefore it fit my gear just fine.
+
+Also note, with font awesome, becareful of non-free fonts. 
