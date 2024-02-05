@@ -1,3 +1,13 @@
-nav{
-    margin;
-}
+.custom-btn {
+    background-color: rgb(104, 1, 201);
+    border-color:rgb(104, 1, 201);
+    color: white; /* Set text color to white for better visibility */
+  }
+  
+
+  .gear-btn {
+    background-color: rgb(218,165,32);
+    border-color:rgb(218,165,32);
+    color: white; /* Set text color to white for better visibility */
+  }
+  
